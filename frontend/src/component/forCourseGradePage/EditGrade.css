@@ -1,0 +1,70 @@
+.edit-grade-widget{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 400px;
+    align-items: center;
+    background-color:white;
+    margin: 0px auto;
+    justify-content: center;
+    height: 500px;
+    border-radius: 5px;
+}
+
+.edit-grade-widget-header{
+    min-width: 400px;
+    background-color:  #4281FF;
+    /* background-color: #ccc; */
+    text-align: center;
+    color: white;
+}
+
+.edit-grade-widget-items div{
+    display: flex;
+    flex-direction: row;
+    padding: 10px 0;
+    justify-content: center;
+}
+
+.edit-grade-widget-items h1{
+    font-family: oswald;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.edit-grade-widget-items input[type="number"]{
+    width: 80px;
+    /* border: none;
+    outline: none; */
+}
+
+.edit-grade-widget-items-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    min-width: 450px;
+}
+
+.edit-grade-overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h2-span-parent{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    /* border-bottom: 1px solid #ccc; */
+    padding: 10px 0px;
+}
+
+.h2-span-parent span{
+    font-weight: 500;
+    font-size: 28px;
+}

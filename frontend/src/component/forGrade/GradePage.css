@@ -1,0 +1,108 @@
+.grade-body{
+    display: flex;
+    flex-direction: row;
+    font-family: oswald;
+    font-size: 12px;
+}
+
+
+.grade-content{
+    padding: 50px;
+    width: 100vw;
+    height: 100vh;
+    background-color: white
+    /* align-items: center; */
+}
+
+.grade-table-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+}
+
+.grade-table h1{
+    text-align: left;
+    width: 128px;
+    
+}
+
+.grade-content .grade-table {
+    display: grid;
+    grid-template-columns: 0.6fr 1.2fr repeat(7, 1fr) 150px; /* Consistent grid columns */
+    gap: 10px;
+    background-color: #4281FF;
+    color: white;
+    padding: 15px 10px; /* Padding for spacing */
+    font-family: oswald;
+    text-align: center; /* Centers text horizontally */
+    align-items: center; /* Aligns text vertically */
+    box-sizing: border-box; /* Prevents overflow issues */
+}
+
+.grade-content .grades-row {
+    display: grid;
+    grid-template-columns: 0.6fr 1.2fr repeat(7, 1fr) 150px; /* Matches header layout */
+    gap: 10px;
+    width: 100%;
+    align-items: center; /* Vertically aligns items */
+    padding: 15px 10px; /* Matches header padding */
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10px;
+    border-bottom: 1px solid #ccc; /* Adds a separator line */
+    box-sizing: border-box; /* Prevents overflow issues */
+}
+
+
+
+
+/* Adjust font size for the icon */
+.grades-row svg,
+.grade-table svg {
+      font-size: 20px !important;
+    /* margin-left: 10px; */
+}
+
+/* Style for individual cells in the grade data rows */
+.grade-content .grades-row h2 {
+    margin: 0 2px;
+    padding: 0; /* Adjusts spacing around the content */
+    font-weight: 400;
+    text-align: left;
+    width: 80px;
+
+}
+
+.grade-content .grade-table h1{
+    width: 80px;
+
+}
+
+.grade-content .grade-table h1:nth-child(3){
+ margin-right: 80px;
+}
+
+.grade-content .grades-row h2:nth-child(3){
+    margin-right: 80px;
+}
+
+.grade-content .grades-row h2:nth-child(2){
+    margin-right: 60px;
+}
+
+
+.grade-edit-button button{
+    color: black;
+    text-align: center;
+    font-size: 10px;
+    cursor: pointer;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    width: 50px;
+    height: 30px;
+    background-color: #FFB12A;
+    width: 70px;
+}
+
+

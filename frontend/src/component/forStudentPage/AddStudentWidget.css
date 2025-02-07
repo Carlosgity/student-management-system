@@ -1,0 +1,56 @@
+.add-student-widget{
+    background-color: white;
+    width: 500px;
+    min-height: 500px; /* Set minimum height */
+    max-height: 800px; /* Set maximum height */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
+    /* overflow-y: auto; Allows scrolling if content overflows */
+    transition: all 0.3s ease; /* Smooth expansion when content changes */  
+    gap: 15px; /* Space between each item */  
+}
+
+.add-student-widget input[type="text"], input[type="date"]{
+    height: 30px;
+    width: 300px;
+}
+
+.add-student-widget div{
+    padding: 5px;
+    /* border-bottom: 1px solid lightgray; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 400px;
+    align-items: center;
+}
+
+
+/* .add-student-widget .stud-parent-name{
+    display: flex;
+    flex-direction: column;
+} */
+
+.add-student-widget .form-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%; /* Take up the full width of the container */
+    /* margin-bottom: 10px; */
+}
+
+.image-preview {
+    margin-top: 10px; /* Space between the text and the image preview */
+}
+
+.image-preview img {
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
